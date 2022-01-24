@@ -1,8 +1,5 @@
 # Partitioned heritability result processing
-"
-Version
-v1 : 
-"
+
 suppressPackageStartupMessages({
   library(data.table)
   library(stringr)
@@ -25,7 +22,6 @@ partitioned_h2_processing <- function(FILE, save2='') {
   fdr <- p.adjust(p, method='fdr', n = length(p))
   data$Cofficient_P <- p
   data$Cofficient_P_FDR <- fdr
-  print(save2)
   if(nchar(save2) == 0){
     save2 <- paste(getwd(), "/", sep="")
   }
