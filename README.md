@@ -19,6 +19,7 @@ Rscript ./process_parh2.R --file ./example/parh2.example.results --dir ./example
 
 
 - Output
+
     ![Result](./example/example.result.png)
 
 
@@ -43,4 +44,5 @@ Rscript ./process_ctanalysis.R --file ./example/example_CT_Cahoy.cell_type_resul
 
 
 - Output
+
     ![Result](./example/example_CT_Cahoy.cell_type_results_withFDR.png)
