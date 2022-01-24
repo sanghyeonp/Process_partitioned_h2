@@ -10,7 +10,7 @@ Processed result file will be saved as `*_withFDR.csv`.
 
 ## Example
 ```
-Rscript ./process_parh2.R --file ./example/parh2.example.results
+Rscript ./process_parh2.R --file ./example/parh2.example.results --dir ./example/
 ```
 
 - Options
